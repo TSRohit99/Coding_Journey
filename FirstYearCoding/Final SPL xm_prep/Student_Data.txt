@@ -1,0 +1,18 @@
+Info of NEUB Students
+
+
+
+The ID of Student 1 : 30
+The name of Student 1 : Rohit Kumar Sen
+Enter the Semester of Student 1 : 2nd
+Enter the Address of Student 1 : Vatalia road, Lamabazar
+
+The ID of Student 2 : 57
+The name of Student 2 : Efa
+Enter the Semester of Student 2 : 2nd
+Enter the Address of Student 2 : Uposhor
+
+The ID of Student 3 : 33
+The name of Student 3 : Lima
+Enter the Semester of Student 3 : 2nd
+Enter the Address of Student 3 : Modina market

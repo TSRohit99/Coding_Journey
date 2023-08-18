@@ -1,0 +1,18 @@
+// About JS
+
+JS is single threaded programming language and that can be non blocking
+it is single threaded language beacuse it has only one call callstack
+callstack is something that maintains the functions in a programm like it pushs the all functions and then pops them one by one
+
+here 
+cosole.log(1);
+hugefunc();
+alert(1);
+
+it wil take time to execute the alert function as it have to complete the hugefunc first. its called blocking method
+
+cosole.log(1);
+setTimeout (hugefunc());
+alert(1);
+
+using setTimeout we can bypass the hugefunc for a while and executethe alert function first. this method is called non-blocking 
