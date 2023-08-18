@@ -75,6 +75,7 @@ public class classes {
         System.out.println("He is a boy, confirmed");
         else
          System.out.println("He is not a boy, confirmed");
+         System.out.println("checking git");
 
 
     }
