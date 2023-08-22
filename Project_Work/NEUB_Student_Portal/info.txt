@@ -1,7 +1,9 @@
 We will be starting to code and implementing ideas soon! stay tuned:)
 
-Team Info :
-
+Project info - NEUB Student Portal 
+Team Memebers : 
 Rohit 30 (Lead Dev)
 Efa 57 (Designer front-end)
 Dina 31 (Researcher)
+
+Project Description : A simple but functional website made with HTML CSS JS and some backend framework such as php and mongoDB (database).Where neub students can find their semester and other info(will be disclosed later) through the portal page. The website will include "Home", "Portal", "Team".
