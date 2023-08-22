@@ -1,7 +1,7 @@
 We will be starting to code and implementing ideas soon! stay tuned:)
 
 Project info - NEUB Student Portal 
-Team Memebers : 
+Team Members : 
 Rohit 30 (Lead Dev)
 Efa 57 (Designer front-end)
 Dina 31 (Researcher)
