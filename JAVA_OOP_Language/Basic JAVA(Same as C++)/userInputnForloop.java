@@ -19,5 +19,6 @@ public class userInputnForloop {
         System.out.println("Hello "+name+" boss"); //print
         byte roll = input.nextByte(); 
         System.out.println(roll);
+        input.close();//close the input
     }
 }

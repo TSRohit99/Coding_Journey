@@ -13,7 +13,7 @@ public class operators {
         byte b= (byte)~a;//have to type cast maybe ~ it returns int
         System.out.println(b);
 
-        int x,y;
+        int x;
         x=0b100000000;//256
        x>>=1; //right sift 1 decreases half 2 do another half
         System.out.println(x);
