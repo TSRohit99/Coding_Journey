@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rohit's Portfolio</title>
+    <link rel="icon" href="favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/931341414c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+
+
+</head>
+
+<body>
+    <!-- <<<<<<HEADER SECTION>>>>>> -->
+
+    <header>
+        <nav>
+            <div class="left"><a href="#ABOUT">Ro<span class="rcol">Hit.</span></a></div>
+            <div class="right">
+                <ul id="sidemenu">
+                    <li><a href="#HOME">Home</a></li>
+                    <li><a href="#ABOUT">About</a></li>
+                    <li><a href="#SERVICES">Services</a></li>
+                    <li><a href="#CONTACT">Contact Me</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </div>
+        </nav>
+    </header>
+    <main>
+
+        <!-- <<<<<<<<HOME SECTION>>>>>>>> -->
+
+        <section class="Home" id="HOME">
+            <div class="LeftSec">
+                Hey, This is <span class="rcol">RoHit</span>
+                <div>A Passionate</div>
+
+                <div>Programmer along with a </div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn"><a href="https://github.com/TSRohit99/">My Github</a></button>
+                    <button class="btn"><a href="https://www.linkedin.com/in/rohit-sen-3a010019b">Connect on
+                            Linkedin</a></button>
+                </div>
+
+            </div>
+
+            <div class="RightSec">
+                <img src="1688400.png">
+
+            </div>
+
+        </section>
+
+        <hr>
+
+        <!-- <<<<<<<<ABOUT SECTION>>>>>> -->
+
+        <section class="About" id="ABOUT">
+            <div class=" container">
+                <div class="row">
+                    <div class="image">
+                        <img src="roh.jpg">
+                    </div>
+                    <div class="Atext">
+                        <h1 class="sub-title">About RoHit</h1>
+                        <p class="text">Hello, I'm Rohit, a passionate CS Student with a strong affinity for technology
+                            and
+                            exploration. With over 3 years of hands-on experience in managing Blockchain-based projects
+                            on platforms
+                            like Telegram, I've been immersed in the dynamic world of cutting-edge technologies.
+                            Currently, I'm
+                            contributing remotely as an Assistant Project Manager at a renowned marketing agency based
+                            in Turkey. My
+                            role allows me to apply my expertise in project management while leveraging my
+                            tech-savviness to drive
+                            results.<br> <br>
+                            I believe in the philosophy of being a "<i> Jack of
+                                all trades, Master of none,</i>" as it enables me to adapt, learn, and excel in
+                            different facets
+                            of
+                            technology.
+                        </p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+
+                        </div>
+
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Project Managing</span> <br> Blockchain Projects Administration on Telegram/Discord</li>
+                                <li><span>Marketing </span> <br> Building Brands & Investor Fundings</li>
+                                <li><span>Programming</span> <br> Solve Problems Through Programming</li>
+                                <li><span>Jr. Web Dev</span> <br> Can Create Simple Websites Using .(html,css,js)</li>
+                                <li><span>Pentesting</span> <br> Hunting Vulns In systems</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2021 - Current </span> <br> Assistant Project Manager at
+                                    TokenSuite</li>
+                                <li><span>2020 - Current </span> <br> Head of Community Management at JB</li>
+                                <li><span>2020 - 2023</span> <br>Communications Specialist at FC24</li>
+                                <li><span>2020 - 2021 </span> <br> Community Administrator at WOM</li>
+
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>B.Sc in CSE (Running)</span> <br> North East University Bangladesh</li>
+                                <li><span>Course in Cyber Sec. (Running)</span> <br> Byte Capsule Ltd.</li>
+                                <li><span>HSC (Completed)</span> <br> Maulvibazar Govt. College</li>
+                                <li><span>SSC (Completed)</span> <br> Maulvibazar Govt. High School</li>
+                            </ul>
+                        </div>
+
+
+
+                    </div>
+                </div>
+
+
+
+            </div>
+
+        </section>
+
+        <hr>
+        <!-- <<<<<<<SERVICES SECTION>>>>>> -->
+        <section class="Services" id="SERVICES">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-list-check"></i>
+                        <h2>Project Management</h2>
+                        <p>With three years of experience managing Blockchain projects at Telegram, I have the skills to effectively contribute to your initiative. I can help organise and enhance your project's Telegram community, making it more professional and engaging for better outcomes along with other marketing services.</p>
+                        <a href="https://www.linkedin.com/in/rohit-sen-3a010019b">Learn More</a>
+
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-money-bill-trend-up "></i>
+                        <h2>Venture Funding</h2>
+                        <p>My extensive network of connections with CEOs across various ventures positions me to facilitate funding opportunities for your project. With a discerning eye for projects that meet the required criteria, I can effectively bridge the gap between visionary ideas and the financial backing needed to realize them.</p>
+                        <a href="https://www.linkedin.com/in/rohit-sen-3a010019b">Learn More</a>
+
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-tower-cell "></i>
+                        <h2>Overall Marketing</h2>
+                        <p>As a member of a  renowned Blockchain-based marketing agency based
+                            in Turkey, I am primed to provide invaluable resources to propel your project to new heights. From strategic insights to specific tactical support, I offer a comprehensive approach that aligns with your project's needs, ensuring its success.</p>
+                        <a href="https://TokenSuite.io">Learn More</a>
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <hr>
+        <section class="Contact" id="CONTACT">
+            <div class="container1">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p> <i class="fa-solid fa-paper-plane"></i> <a class="mail" href="mailto:Ts.RohitSen@gmail.com">
+                            Ts.RohitSen@gmail.com </a></p>
+                        <!-- <p><i class="fa-solid fa-phone"></i>+88012345677</p> -->
+                        <div class="social-icons">
+                            <a href="https://x.com/ro_hitbro/"><i class="fa-brands fa-x-twitter"></i></a>
+                            <a href="https://www.linkedin.com/in/rohit-sen-3a010019b"><i
+                                    class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://t.me/rohit_sen/"><i class="fa-brands fa-telegram"></i></a>
+                            <a href="https://github.com/TSRohit99/"><i class="fa-brands fa-github"></i></a>
+
+                        </div>
+                    </div>
+
+                    <div class="contact-right">
+                        <form id="contact-form" method="post">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="Email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn2" name="submit">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- <<<<<<<<FOOOTER AREA>>>>> -->
+        <section class="Copyright">
+            <div>
+                <p>©2023 Rohit Sen | All Rights Reserved</p>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="scripts.js"></script>
+
+</body>
+
+</html>
