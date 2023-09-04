@@ -1,4 +1,2 @@
-int n;
-    // fact(int j){
-    //     n=j;
-    // }
+
+    public static void main(String[] args) {
