@@ -8,7 +8,7 @@ class check{
 
   }
 
-  public static boolean positive (){
+  public boolean positive (){
     return a>=0;
   }
 
@@ -17,8 +17,8 @@ class check{
 
 public class accessControl {
     public static void main(String[] args) {
-        check c= new check(-1);
-        System.out.println("State : "+ check.positive());
+        check c= new check(5);
+        System.out.println("State : "+ c.positive());
         if(c.positive())
             System.out.println("The given number is positive");
         
