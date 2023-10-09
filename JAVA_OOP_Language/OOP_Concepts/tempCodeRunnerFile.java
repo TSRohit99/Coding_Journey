@@ -1,3 +1,2 @@
- B(int n){
-        System.out.println("B INT cons");
-    }
+
+        System.out.println(S.b); // final, cant reassign the val
