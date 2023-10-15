@@ -4,5 +4,9 @@
         "cmath": "cpp",
         "ostream": "cpp"
     },
-    "C_Cpp.errorSquiggles": "disabled"
+    "C_Cpp.errorSquiggles": "disabled",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[cpp]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools"
+    }
 }

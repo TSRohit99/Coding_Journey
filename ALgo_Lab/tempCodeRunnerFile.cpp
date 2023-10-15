@@ -1,2 +1,1 @@
-
-        if(arr[i]>max){
+cout<<"End of 1"<<endl;
