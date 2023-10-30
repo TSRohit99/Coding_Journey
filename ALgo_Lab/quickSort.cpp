@@ -44,7 +44,7 @@ void print(int arr[], int sz){
 
 }
 int main (){
-    int arr[] = {4, 3, 2, 1,0,9,3,23,56,234,1222,109292};
+    int arr[] = {4, 3, 2, 1,1,0,9,3,23,56,234,1222,109292};
     int sz= sizeof(arr)/sizeof(arr[0]);
     quickSort(arr, 0, sz-1); //sz-1 last index
     for(int i=0; i<sz; i++){

@@ -16,8 +16,8 @@ while(j>=0 && arr[j]>key){
 arr[j+1]=key;
 
 
-
     }
+
 cout<<"After sorting..."<<endl;
     for(int r=0;r<n; r++) {
           printf("%d ", arr[r]);

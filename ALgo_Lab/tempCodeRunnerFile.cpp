@@ -1,1 +1,1 @@
-cout<<"End of 1"<<endl;
+for(int i =0; i<n; i++)

@@ -11,6 +11,7 @@ int __findMaxNumber(int arr[], int n){
     return max;
 }
 
+
 void countingSort(int arr[], int n)
 {
     int max= __findMaxNumber(arr, n);
@@ -30,6 +31,7 @@ void countingSort(int arr[], int n)
     cout<<"__countingSort(); appllied successfully.Printing the Array: "<<endl;
     for(int i =0; i<n; i++)
         arr[i]=output[i];
+
 
 }
 void __printarray(int arr[], int n){
