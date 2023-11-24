@@ -2,7 +2,10 @@
     "files.associations": {
         "iostream": "cpp",
         "cmath": "cpp",
-        "ostream": "cpp"
+        "ostream": "cpp",
+        "deque": "cpp",
+        "string": "cpp",
+        "vector": "cpp"
     },
     "C_Cpp.errorSquiggles": "disabled",
     "editor.defaultFormatter": "esbenp.prettier-vscode",
